@@ -1,5 +1,6 @@
 import NavBar from "../NavBar";
 import LandingPage from "../LandingPage";
+import Footer from "../Footer";
 
 import "./index.css";
 
@@ -9,6 +10,7 @@ const Home = () => {
     <div>
       <NavBar />
       <LandingPage />
+    <Footer />
     </div>
   );
 };
