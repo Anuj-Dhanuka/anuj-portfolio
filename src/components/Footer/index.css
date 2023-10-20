@@ -1,0 +1,129 @@
+.footer-bg-container {
+  width: 100%;
+  height: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 10vh;
+  padding-right: 24px;
+  background-color: rgba(19, 19, 19, 0.8);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.footer-left-heading {
+  font-size: 22px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.footer-left-para {
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.footer-hr-line {
+  display: none;
+}
+
+.footer-right {
+  width: 30%;
+}
+
+.footer-mail-container {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.footer-mail-icon {
+  height: 20px;
+  width: 20px;
+  color: #fff;
+  margin-right: 8px;
+}
+
+.footer-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icon-link-el {
+  text-align: center;
+  background-color: aliceblue;
+  margin-right: 16px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.05);
+}
+
+.footer-icon-link-el:hover {
+  background: linear-gradient(-45deg, #ed1c94, #ffec17);
+  transition: 0.5s;
+}
+
+.footer-social-icon {
+  height: 23px;
+  width: 23px;
+  color: #000;
+}
+
+.footer-social-icon:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1199px) {
+  .footer-bg-container {
+    padding-left: 3vh;
+  }
+
+  .footer-left {
+    width: 62%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer-bg-container {
+    padding-left: 16px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-left {
+    width: 100%;
+  }
+
+  .footer-left-para {
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  .footer-right {
+    width: 100%;
+    padding-left: 16px;
+  }
+
+  .footer-hr-line {
+    display: initial;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    border: 1px solid #94a3b8;
+  }
+}
