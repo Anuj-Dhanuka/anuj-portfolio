@@ -29,14 +29,16 @@ const Footer = () => {
             <a
               href="https://www.facebook.com/profile.php?id=100082010867719&mibextid=ZbWKwL"
               target="_blank"
+              rel="noreferrer"
               className="footer-icon-link-el"
             >
               <FaFacebook className="footer-social-icon" />
             </a>
 
             <a
-              href={"https://www.linkedin.com/in/anuj-dhanuka-1b0598155"}
+              href="https://www.linkedin.com/in/anuj-dhanuka-1b0598155"
               target="_blank"
+              rel="noreferrer"
               className="footer-icon-link-el"
             >
               <FaLinkedin className="footer-social-icon" />
@@ -45,6 +47,7 @@ const Footer = () => {
               href="https://www.instagram.com/anuj_dhanuka/"
               target="_blank"
               className="footer-icon-link-el"
+              rel="noreferrer"
             >
               <FaInstagram className="footer-social-icon" />
             </a>

@@ -9,8 +9,8 @@ const LandingPage = () => {
     <div className="landing-page-container">
       <div className="landing-mask">
         <img
-          src="http://www.intertech.ps/images1/home_sec.jpg"
-          alt="landing view"
+          src="https://i0.wp.com/levashove.ru/wp-content/uploads/2018/11/dark-wallpapers.jpg?fit=1680%2C840&ssl=1"
+          alt="landingView"
           className="landing-image"
         />
       </div>
