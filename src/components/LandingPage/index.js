@@ -15,11 +15,12 @@ const LandingPage = () => {
         />
       </div>
       <div className="landing-content">
+        <p className="landing-page-para">
+          Welcome to Anuj's Web Development Portfolio!
+        </p>
         <h1 className="landing-page-description">
-          Hey there! I'm Anuj Dhanuka, a passionate and detail-oriented
-          full-stack web developer with a knack for turning ideas into powerful,
-          user-friendly applications. Welcome to my corner of the web, where
-          code meets creativity.
+          I am a passionate and results-driven web developer seeking exciting
+          opportunities in the tech industry.
         </h1>
         <div>
           <Link to="/projects">

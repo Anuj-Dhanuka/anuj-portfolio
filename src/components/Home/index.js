@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <NavBar />
       <LandingPage />
-    <Footer />
+      <Footer />
     </div>
   );
 };

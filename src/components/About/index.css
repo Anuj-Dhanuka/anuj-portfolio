@@ -1,0 +1,122 @@
+.about-bg-container {
+  height: 100%;
+  width: 100%;
+  padding: 48px 48px;
+}
+
+.about-main-heading {
+  padding: 16px;
+}
+
+.about-right-sm-container {
+  display: none;
+}
+
+.about-inner-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-left-container {
+  padding: 16px;
+  width: 50%;
+}
+
+.about-para-1 {
+  margin: 20px 0;
+}
+
+.about-right-container {
+  max-width: 700px;
+}
+
+.about-btn {
+  background-color: yellow;
+  color: #222;
+  padding: 12px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about-profile-pic {
+  height: 400px;
+  width: 340px;
+}
+
+.about-technology-container {
+  padding-left: 16px;
+}
+
+.about-skills-ul-container {
+  list-style-type: none;
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.html-about-skill-container {
+  background-color: #b3b3ff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 16px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.about-skill-icon {
+  fill: #527a7a;
+  height: 50px;
+  width: 50px;
+}
+
+.about-skill-name {
+  color: #527a7a;
+  font-weight: 600;
+}
+
+.about-text-decoration {
+  text-decoration: underline;
+}
+
+.about-other-skill-para {
+  padding-left: 16px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .about-bg-container {
+    padding: 48px 0px;
+  }
+  .about-inner-container {
+    flex-direction: column;
+  }
+
+  .about-right-sm-container {
+    display: initial;
+  }
+
+  .about-sm-profile-image {
+    width: 97%;
+  }
+
+  .about-left-container {
+    width: 100%;
+  }
+
+  .about-right-container {
+    display: none;
+  }
+}

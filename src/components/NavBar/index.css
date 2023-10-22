@@ -30,6 +30,17 @@
   margin-right: 16px;
 }
 
+.nav-link-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav-link-btn:hover {
+  color: #df9fbf;
+}
+
 .hamburger-menu {
   display: none;
 }

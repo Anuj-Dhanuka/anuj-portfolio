@@ -33,16 +33,32 @@ class NavBar extends Component {
         </Link>
         <ul className={isClicked ? "nav-menu active" : "nav-menu"}>
           <li className="nav-li-items">
-            <Link to="/">Home</Link>
+            <Link to="/">
+              <button type="button" className="nav-link-btn">
+                Home
+              </button>
+            </Link>
           </li>
           <li className="nav-li-items">
-            <Link to="/about">About</Link>
+            <Link to="/about">
+              <button type="button" className="nav-link-btn">
+                About
+              </button>
+            </Link>
           </li>
           <li className="nav-li-items">
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects">
+              <button type="button" className="nav-link-btn">
+                Projects
+              </button>
+            </Link>
           </li>
           <li className="nav-li-items">
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">
+              <button type="button" className="nav-link-btn">
+                Contact
+              </button>
+            </Link>
           </li>
         </ul>
         <div className="hamburger-menu" onClick={this.onClickHamburger}>

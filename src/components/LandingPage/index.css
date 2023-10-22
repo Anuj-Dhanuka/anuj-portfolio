@@ -37,6 +37,12 @@
   width: 70%;
 }
 
+.landing-page-para {
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 200;
+}
+
 .landing-page-description {
   font-size: 32px;
   margin-bottom: 52px;
@@ -50,6 +56,21 @@
 }
 
 @media screen and (max-width: 640px) {
+  .landing-page-container .landing-content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 80%;
+  }
+
+  .landing-page-para {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 200;
+  }
+
   .landing-page-description {
     font-size: 18px;
     font-weight: 500;

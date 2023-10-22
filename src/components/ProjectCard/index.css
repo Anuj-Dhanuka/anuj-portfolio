@@ -23,12 +23,13 @@
 
 .project-description-text {
   padding-bottom: 16px;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 @media screen and (min-width: 768px) {
   .project-description-text-container {
-    height: 250px;
+    height: 220px;
   }
 
   .project-technology-text-container {
